@@ -2,25 +2,31 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Sam + Maggie\'s Wedding',
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Coming in the next few years, hopefully!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hey there! We're ",
+  name: 'Sam and Maggie',
+  subtitle: "We're getting married!",
+  cta: "That's cool! Tell me more!",
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  title: 'About Sam & Maggie',
+  img: 'xmas2019.jpg',
+  threesheetsImg: 'threesheets.jpg',
+  engagementImg: 'engagement.jpg',
+  paragraphOne:
+    'On the November 1st, 2016, Maggie DePentu drove from West Hartford to New Haven to go on a date with a complete stranger named Sam Marshall. When asked whether she preferred a nicer, quieter craft beer bar or a divey, noisy gastropub, Maggie responded without hesitation "Dive Bar!" and the two settled upon Three Sheets on Elm St.',
+  paragraphTwo:
+    "After two rounds of beer, at least one round of Three Sheets' pickle fries, and a mutual admiration of Kid Cudi, The Postal Service and Kanye West (he was still in his post-Pablo, pre-MAGA phase), the two agreed to see eachother again soon. And the rest, as they say, is history.",
+  paragraphThree:
+    "There's a lot more story to be told, but that's not for here... we have a wedding to plan!",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,37 +35,34 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'The Venue',
+    info: 'Info to come here, once we figure it all out!',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'The Registry',
+    info: 'Info to come here, once we figure it all out!',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'The Sleeping',
+    info: 'Info to come here, once we figure it all out!',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Have any questions? Reach out to us directly!',
+  btn: 'Email Us!',
+  email: 'wedding@depentumarshall.com',
 };
 
 // FOOTER DATA
