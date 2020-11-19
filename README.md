@@ -210,7 +210,9 @@ $secondary-color: #00cdac;
 
 Once you have done with your setup. You need to put your website online!
 
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+The original author recommends to use [Netlify](https://netlify.com)
+I set it up easily using [AWS Amplify](https://www.gatsbyjs.com/blog/2018-08-24-gatsby-aws-hosting/).
+- If for some reason you set up a backend service for this site, use [these docs](https://www.gatsbyjs.com/docs/deploying-to-aws-amplify/). 
 
 ## Technologies used 🛠️
 
@@ -223,10 +225,6 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 ## Original Author
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
 
 ## License 📄
 
