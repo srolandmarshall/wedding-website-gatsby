@@ -1,8 +1,7 @@
 # Welcome to Sam and Maggie's Wedding Website
 
-If you want to clone this project for your wedding website, go right ahead. 
+If you want to clone this project for your wedding website, go right ahead.
 Built with GatsbyJS [Simplefolio](https://www.gatsbyjs.com/starters/cobidev/gatsby-simplefolio/) [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio) recipe
-
 
 ## Getting Started 🚀
 
@@ -103,7 +102,7 @@ export const aboutData = {
   img: 'main.jpg', // put your main image (recommended aspect radio: square)
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: ''
+  paragraphThree: '',
 };
 ```
 
@@ -179,17 +178,6 @@ export const footerData = {
 };
 ```
 
-### Required - Disable GitHub buttons
-
-Set `isEnabled` to `false` once you finish setup your portfolio.\
-By setting to `false` it will hide the GitHub stars/fork buttons
-
-```javascript
-export const githubButtons = {
-  isEnabled: true, // true is the default value
-};
-```
-
 ### Step 2 - STYLES
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
@@ -212,7 +200,8 @@ Once you have done with your setup. You need to put your website online!
 
 The original author recommends to use [Netlify](https://netlify.com)
 I set it up easily using [AWS Amplify](https://www.gatsbyjs.com/blog/2018-08-24-gatsby-aws-hosting/).
-- If for some reason you set up a backend service for this site, use [these docs](https://www.gatsbyjs.com/docs/deploying-to-aws-amplify/). 
+
+- If for some reason you set up a backend service for this site, use [these docs](https://www.gatsbyjs.com/docs/deploying-to-aws-amplify/).
 
 ## Technologies used 🛠️
 
