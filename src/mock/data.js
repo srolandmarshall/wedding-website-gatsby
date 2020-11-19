@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sam + Maggie\'s Wedding',
+  title: "Sam + Maggie's Wedding",
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Coming in the next few years, hopefully!', // e.g: Welcome to my website
 };
@@ -38,7 +38,7 @@ export const projectsData = [
     title: 'The Venue',
     info: 'Info to come here, once we figure it all out!',
     info2: '',
-    url: ''
+    url: '',
   },
   {
     id: nanoid(),
@@ -46,7 +46,7 @@ export const projectsData = [
     title: 'The Registry',
     info: 'Info to come here, once we figure it all out!',
     info2: '',
-    url: ''
+    url: '',
   },
   {
     id: nanoid(),
@@ -93,5 +93,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
