@@ -34,10 +34,10 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobidev/gatsby-simplefolio
+$ git clone https://github.com/srolandmarshall/wedding-website-gatsby
 
 # Go into the repository
-$ cd gatsby-simplefolio
+$ cd wedding-website-gatsby
 
 # Remove current origin repository
 $ git remote remove origin
