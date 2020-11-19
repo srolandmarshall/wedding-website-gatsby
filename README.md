@@ -75,10 +75,6 @@ $ sudo npm install --unsafe-perm=true --allow-root
 
 Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
-</h2>
-
 ---
 
 ## Instructions:
@@ -87,7 +83,7 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 
-### Hero Section
+### Intro Section
 
 ```javascript
 export const heroData = {
@@ -98,25 +94,24 @@ export const heroData = {
 };
 ```
 
-### About Section
+### About Us Section
 
 **_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
 
 ```javascript
 export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  img: 'main.jpg', // put your main image (recommended aspect radio: square)
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: ''
 };
 ```
 
-### Projects Section
+### Info Section
 
 **_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
 
-Put as many projects object you want inside the `array`.
+Put as many things you want inside the `projectsData` array.
 
 ```javascript
 export const projectsData = [
@@ -146,8 +141,8 @@ export const projectsData = [
 
 ```javascript
 export const contactData = {
-  cta: '', // call to action text for the contact section
-  btn: '', // text inside the button
+  cta: '', // cText for the contact section
+  btn: '', // Text inside the button
   email: '',
 };
 ```
@@ -217,11 +212,6 @@ Once you have done with your setup. You need to put your website online!
 
 I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
 
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
@@ -230,7 +220,7 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
 
-## Authors
+## Original Author
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
