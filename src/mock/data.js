@@ -51,7 +51,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'The Sleeping',
+    title: 'The Sleeping Arraignments',
     info: 'Info to come here, once we figure it all out!',
     info2: '',
     url: '',
