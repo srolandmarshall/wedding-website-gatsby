@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: "Sam + Maggie's Wedding",
+  title: 'Sam + Maggie',
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Coming in the next few years, hopefully!', // e.g: Welcome to my website
+  description: 'August 2022', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -27,7 +27,6 @@ export const aboutData = {
     "After two rounds of beer, at least one round of Three Sheets' pickle fries, and a mutual admiration of Kid Cudi, The Postal Service and Kanye West (he was still in his post-Pablo, pre-MAGA phase), the two agreed to see eachother again soon. And the rest, as they say, is history.",
   paragraphThree:
     "There's a lot more story to be told, but that's not for here... we have a wedding to plan!",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -93,5 +92,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
