@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "We're getting married!",
+  title: '',
   name: 'Sam & Maggie',
   subtitle: 'August 2022',
-  // cta: "That's cool! Tell me more!",
+  cta: "That's cool! Tell me more!",
 };
 
 // ABOUT DATA
