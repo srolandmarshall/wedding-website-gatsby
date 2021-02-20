@@ -26,20 +26,19 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, we are '}{' '}
-            <span className="text-color-main">{name || 'Sam & Maggie'}</span>.
+            {title} <span className="text-color-main">{name || 'Sam & Maggie'}</span>.
             <br />
             {subtitle || "We're getting married!"}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
+          {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || "That's cool! Tell me more!"}
+                {cta}
               </Link>
             </span>
-          </p>
+          </p> */}
         </Fade>
       </Container>
     </section>
