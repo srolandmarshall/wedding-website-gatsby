@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: "Hey there! We're ",
   name: 'Sam and Maggie',
-  subtitle: "We're getting married!",
-  cta: "That's cool! Tell me more!",
+  subtitle: 'August 2022',
+  // cta: "That's cool! Tell me more!",
 };
 
 // ABOUT DATA
